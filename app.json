@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/topics/topics",
+    "pages/topicDetail/topicDetail",
+    "pages/personal/personal"
+  ],
+  "window":
+  {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#75B407",
+    "navigationBarTitleText": "NodeJs",
+    "navigationBarTextStyle": "light"
+  },
+  "tabBar":
+  {
+    "selectedColor": "#75B407",
+    "borderStyle": "#D9D9DB",
+    "list": [
+    {
+      "pagePath": "pages/index/index",
+      "iconPath": "./images/home_gray.png",
+      "selectedIconPath": "./images/home.png",
+      "text": "首页"
+    },
+    {
+      "pagePath": "pages/topics/topics",
+      "iconPath": "./images/list_gray.png",
+      "selectedIconPath": "./images/list.png",
+      "text": "广场"
+    }]
+  }
+}
