@@ -19,8 +19,8 @@
 .uil-default-css {
   position: relative;
   background: none;
-  width: 200px;
-  height: 200px;
+  width: 400rpx;
+  height: 400rpx;
 }
 
 .uil-default-css>view:nth-of-type(1) {

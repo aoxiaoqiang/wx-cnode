@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="page-index">
 	<view class="container">
-	  <view class="userinfo">
+	  <!-- <view class="userinfo">
 	    <block>
 	      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
 	      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
@@ -9,6 +9,10 @@
 	  </view>
 	  <view class="usermotto">
 	    <text class="user-motto">{{motto}}</text>
-	  </view>
+	  </view> -->
+		<view class="poster">
+			<image src="../../images/poster.png" mode="aspectFit"></image>
+			<button class="btn-navigate" bindtap="toTopic">立即查阅</button>
+		</view>
 	</view>
 </view>

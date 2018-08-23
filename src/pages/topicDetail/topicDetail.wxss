@@ -1,12 +1,10 @@
 /* 帖子详情 */
 
 .topic-detail {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  padding: 40rpx 0;
+  width: 100%;
+  overflow-x: hidden;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
 }
 

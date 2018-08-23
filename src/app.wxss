@@ -1,0 +1,10 @@
+/**app.wxss**/
+/*nodeColor: #75B407*/
+
+view,
+button,
+text,
+scroll-view{
+  box-sizing: border-box;
+  font-size: 32rpx;
+}

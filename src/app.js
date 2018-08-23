@@ -10,11 +10,7 @@ wx.safeNavigateTo = util.safeNavigateTo
 //app.js
 App({
   onLaunch() {
-  	wx.getUserInfo({
-  		success: (res) => {
-  			this.globalData.userInfo = res.userInfo
-  		}
-  	})
+
   },
   globalData: {
     userInfo: null

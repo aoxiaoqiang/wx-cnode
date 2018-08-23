@@ -1,5 +1,5 @@
 <template name="loading">
-  <view class="uil-default-css" style="transform:scale(0.12);-webkit-transform:scale(0.12);left:50%;top:12rpx;margin-left:-36rpx;height:72rpx;width:72rpx;">
+  <view class="uil-default-css" style="transform:scale(0.12); -webkit-transform:scale(0.12); left: 0; top: 0; height: 100rpx; width:72rpx;">
     <view style='width:14px;height:40px;background:#000000;-webkit-transform:rotate(0deg)  translate(0,-60px);transform:rotate(0deg) translate(0,-60px);border-radius:10px;position:absolute;'></view>
     <view style='width:14px;height:40px;background:#000000;-webkit-transform:rotate(30deg) translate(0,-60px);transform:rotate(30deg) translate(0,-60px);border-radius:10px;position:absolute;'></view>
     <view style='width:14px;height:40px;background:#000000;-webkit-transform:rotate(60deg) translate(0,-60px);transform:rotate(60deg) translate(0,-60px);border-radius:10px;position:absolute;'></view>

@@ -1,0 +1,44 @@
+<import src="../../templates/base_loading/loading.wxml" />
+
+<view class="index">
+  <!-- 帖子主题 -->
+  <view class="topic-groups">
+    <view class="group-tab-item {{index === tabSelectedIndex ? 'selected' : ''}}"
+      wx:for="{{groupTabs}}"
+      wx:key="{{index}}"
+      data-tab="{{item.tab}}"
+      data-index="{{index}}"
+      bindtap="switchTab">
+      {{item.text}}
+    </view>
+    <view class="selected-bar" style="left: {{tabSelectedIndex * (100/groupTabs.length)}}%;"></view>
+  </view>
+
+  <!-- 帖子列表 -->
+  <scroll-view class="topic-items"
+    style="height: {{scrollHeight}}px;"
+    scroll-y="{{true}}"
+    lower-threshold="300"
+    bindscrolltolower="loadMore"
+    lower-threshold="160">
+    <view class="topic-item {{index === (topicsData.length - 1) ? 'no-border' : ''}}" hover-class="activeBg" hover-stay-time="100"
+      wx:for="{{topicsData}}"
+      wx:key="{{index}}"
+      data-topicid="{{item.id}}"
+      bindtap="toDetail">
+      <view class="avatar-box">
+        <image src="{{item.author.avatar_url}}" mode="aspectFit"></image>
+      </view>
+      <view class="contents">
+        <view class="title">{{item.title}}</view>
+        <view class="count">{{item.reply_count}}/{{item.visit_count}}</view>
+      </view>
+    </view>
+
+    <!-- <view class="loading">加载中...</view> -->
+    <view class="loading-bar">
+      <template is="loading" />
+    </view>
+  </scroll-view>
+  <!-- End 帖子列表 -->
+</view>
