@@ -1,5 +1,12 @@
 # 笔记
 
+```json
+{
+  "appid": "wxeef16dfee5e76078",
+  "projectname": "Node随心阅"
+}
+```
+
 导航配置
 
 ```json
