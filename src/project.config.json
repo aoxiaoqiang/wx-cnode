@@ -8,9 +8,9 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.6.6",
+	"libVersion": "2.1.2",
 	"appid": "wxeef16dfee5e76078",
-	"projectname": "cnode",
+	"projectname": "Node%E9%9A%8F%E5%BF%83%E9%98%85",
 	"condition": {
 		"search": {
 			"current": -1,

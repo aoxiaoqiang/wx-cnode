@@ -20,7 +20,7 @@
  *   tryTime
  * })
  * ```
- * @todo showApi and errorApi 
+ * @todo showApi and errorApi
  */
 function fetch(opts) {
   if (!opts.noStatus) {
@@ -36,8 +36,6 @@ function fetch(opts) {
           } catch (e) {}
         }
         resolve(res);
-        hideLoading();
-
       },
       fail(res) {
         reject();
@@ -65,18 +63,8 @@ function showLoading() {
   wx.showToast({
     title: '加载中…',
     icon: 'loading',
-    duration: 10000,
+    duration: 1000
   })
-}
-
-/**
- * 隐藏loading
- * @return {null}
- */
-function hideLoading() {
-  setTimeout(() => {
-    wx.hideLoading();
-  }, 300)
 }
 
 export default fetch

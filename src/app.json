@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/topics/topics",
+    "pages/topicDetail/topicDetail",
+    "pages/personal/personal",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#75B407",
+    "backgroundColor": "#444",
+    "navigationBarTitleText": "NodeJs",
+    "navigationBarTextStyle": "light"
+  }
+}
