@@ -20,9 +20,23 @@
 			"current": -1,
 			"list": []
 		},
-		"miniprogram": {
+		"plugin": {
 			"current": -1,
 			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": 0,
+					"name": "detail",
+					"pathName": "pages/topicDetail/topicDetail",
+					"query": "id=5a9661ff71327bb413bbff5b"
+				}
+			]
 		}
 	}
 }
